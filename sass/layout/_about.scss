@@ -8,13 +8,6 @@
   padding-top: 94px;
 }
 
-.item {
-  margin-left: 30px;
-  flex-basis: calc((100% - 120px) / 4);
-
-  position: relative;
-}
-
 .icon-antenna::before {
   display: block;
   content: '';
