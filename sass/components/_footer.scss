@@ -26,6 +26,11 @@
 .footer-adress__contact {
   margin-bottom: 9px;
   color: rgba(255, 255, 255, 0.6);
+
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
 }
 
 .footer-social__icons {
@@ -56,14 +61,9 @@
   }
 }
 
-.footer-social-icon {
+.footer-social__icon {
   width: 20px;
   height: 20px;
-}
-
-.footer-contact:hover,
-.footer-contact:focus {
-  color: var(--accent-color);
 }
 
 .adress {
