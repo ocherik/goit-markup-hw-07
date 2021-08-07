@@ -32,11 +32,11 @@
   cursor: pointer;
   color: var(--white-color);
   width: 100%;
-}
 
-.footer-form__input:focus {
-  outline: none;
-  border-color: var(--accent-color);
+  &:focus {
+    outline: none;
+    border-color: var(--accent-color);
+  }
 }
 
 .footer-form__btn {

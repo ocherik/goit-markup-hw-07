@@ -276,7 +276,7 @@ h3.social-title {
   margin-bottom: 20px;
 }
 
-.footer-page {
+.footer {
   display: flex;
   align-items: center;
   color: var(--white-color);
@@ -296,22 +296,22 @@ h3.social-title {
   margin-right: 70px;
 }
 
-.footer-text-adress {
+.footer-adress__text {
   margin-top: 20px;
   margin-bottom: 9px;
 }
 
-.footer-contact {
+.footer-adress__contact {
   margin-bottom: 9px;
   color: rgba(255, 255, 255, 0.6);
 }
 
-.footer-social-icons {
+.footer-social__icons {
   display: flex;
   justify-content: space-around;
 }
 
-.footer-social-link {
+.footer-social__link {
   fill: var(--white-color);
   display: flex;
   align-items: center;
@@ -323,13 +323,12 @@ h3.social-title {
   transition: background-color 250ms var(--timing-function);
 }
 
-.footer-social-item:not(:last-child) {
-  margin-right: 10px;
+.footer-social__link:hover, .footer-social__link:focus {
+  background-color: var(--accent-color);
 }
 
-.footer-social-link:hover,
-.footer-social-link:focus {
-  background-color: var(--accent-color);
+.footer-social__item:not(:last-child) {
+  margin-right: 10px;
 }
 
 .footer-social-icon {
@@ -519,14 +518,14 @@ h3.social-title {
   width: 100%;
 }
 
-.footer-form-div {
+.footer-form__div {
   display: flex;
   height: 50px;
   margin-left: 93px;
   margin-top: 20px;
 }
 
-.footer-form-field {
+.footer-form__field {
   margin-left: 93px;
   width: 100%;
   font-size: 14px;
@@ -538,7 +537,7 @@ h3.social-title {
   text-transform: uppercase;
 }
 
-.form-input-footer {
+.footer-form__input {
   padding: 15px 16px;
   margin-right: 12px;
   border: 1px solid rgba(255, 255, 255, 0.3);
@@ -549,12 +548,12 @@ h3.social-title {
   width: 100%;
 }
 
-.form-input-footer:focus {
+.footer-form__input:focus {
   outline: none;
   border-color: var(--accent-color);
 }
 
-.form-btn-footer {
+.footer-form__btn {
   display: flex;
   align-items: center;
   padding: 10px 28px 10px 29px;
@@ -570,7 +569,7 @@ h3.social-title {
   cursor: pointer;
 }
 
-.form-icon-footer {
+.footer-form__icon {
   fill: var(--white-color);
   margin-left: 10px;
 }
